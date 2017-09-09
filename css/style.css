@@ -164,7 +164,12 @@ input[type=text]:focus {
 
 .icons i {
     float: left;
-    padding-left: 10px
+    padding-right: 15px;
+    color: #65657a
+}
+
+.profile-1 {
+    padding-top: 21px
 }
 
 .profile {
