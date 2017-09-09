@@ -1,0 +1,11 @@
+.aside {
+    position: fixed;
+    height: 100%;
+    padding-left: .5%;
+    background-color: #272736
+}
+
+.aside img {
+    margin: 20%;
+    padding-left: 20%
+}
