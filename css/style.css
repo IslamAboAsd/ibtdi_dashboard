@@ -288,6 +288,12 @@ tr:hover {
     aside>.fa {
         padding-left: 0
     }
+    .tbl {
+        font-size: 10px;
+    }
+    .tbl tr td {
+        padding: 8px 10px
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
