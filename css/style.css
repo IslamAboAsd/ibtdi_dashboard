@@ -380,6 +380,10 @@
                                        .table>thead>tr>th {
                                            font-size: 12px !important
                                        }
+                                       .under-tfooter {
+                                           font-size: 10px;
+                                           padding: 15px
+                                       }
                                    }
                                    
                                    @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -404,5 +408,10 @@
                                        }
                                        .table>thead>tr>th {
                                            font-size: 10px!important
+                                       }
+                                       .under-tfooter h3,
+                                       .under-tfooter p,
+                                       .under-tfooter span {
+                                           font-size: 15px;
                                        }
                                    }
