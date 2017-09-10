@@ -1,400 +1,408 @@
-                               * {
-                               font-family: sans-serif, "Arial Black", Gadget,
-                           }
-                           
-                           .col-xs-1,
-                           .col-sm-1,
-                           .col-md-1,
-                           .col-lg-1,
-                           .col-xs-2,
-                           .col-sm-2,
-                           .col-md-2,
-                           .col-lg-2,
-                           .col-xs-3,
-                           .col-sm-3,
-                           .col-md-3,
-                           .col-lg-3,
-                           .col-xs-4,
-                           .col-sm-4,
-                           .col-md-4,
-                           .col-lg-4,
-                           .col-xs-5,
-                           .col-sm-5,
-                           .col-md-5,
-                           .col-lg-5,
-                           .col-xs-6,
-                           .col-sm-6,
-                           .col-md-6,
-                           .col-lg-6,
-                           .col-xs-7,
-                           .col-sm-7,
-                           .col-md-7,
-                           .col-lg-7,
-                           .col-xs-8,
-                           .col-sm-8,
-                           .col-md-8,
-                           .col-lg-8,
-                           .col-xs-9,
-                           .col-sm-9,
-                           .col-md-9,
-                           .col-lg-9,
-                           .col-xs-10,
-                           .col-sm-10,
-                           .col-md-10,
-                           .col-lg-10,
-                           .col-xs-11,
-                           .col-sm-11,
-                           .col-md-11,
-                           .col-lg-11,
-                           .col-xs-12,
-                           .col-sm-12,
-                           .col-md-12,
-                           .col-lg-12 {
-                               padding-left: 25px !important;
-                               padding-right: 0 !important
-                           }
-                           /*start aside*/
-                           
-                           aside {
-                               padding-left: 15%;
-                               background-color: #272736;
-                               color: #757583;
-                           }
-                           
-                           aside img {
-                               margin: 20%;
-                           }
-                           
-                           aside .main-tabs {
-                               padding: 0
-                           }
-                           
-                           aside .main-tabs li {
-                               padding: 15px 20px;
-                               list-style: none;
-                               border-left: 2px solid transparent
-                           }
-                           
-                           aside .main-tabs li:hover {
-                               background-color: #222230;
-                               border-left: 2px solid #c19a4e;
-                               color: #D9D9E3
-                           }
-                           
-                           aside .main-tabs li:hover .fa {
-                               color: #c19a4e
-                           }
-                           
-                           aside .main-tabs>.fa {
-                               font-size: 25px;
-                               color: #777790;
-                               padding-left: 10%
-                           }
-                           
-                           aside ul span {
-                               text-transform: uppercase;
-                               letter-spacing: 1px;
-                               font-weight: bold;
-                               padding: 15px 10px
-                           }
-                           
-                           aside .details {
-                               padding-top: 10px;
-                               padding-left: 25px;
-                               padding-bottom: 25px;
-                               font-size: 12px;
-                               border-bottom: 1px solid #35353c
-                           }
-                           
-                           aside .details:hover,
-                           aside .details-recycel p:hover {
-                               color: #c19a4e;
-                           }
-                           
-                           aside .details-recycel p {
-                               padding: 10px 15px;
-                           }
-                           
-                           aside .details-recycel {
-                               background-color: #222230
-                           }
-                           
-                           aside .details-recycel p .fa {
-                               float: right
-                           }
-                           /*Start navbar*/
-                           
-                           .navbar {
-                               background-color: #e9edf2;
-                           }
-                           
-                           .burger {
-                               display: inline-block;
-                               padding-left: 30px
-                           }
-                           
-                           .cus {
-                               display: inline-block;
-                               cursor: pointer;
-                               width: 15%;
-                               padding-right: 20px
-                           }
-                           
-                           .bar1,
-                           .bar2,
-                           .bar3 {
-                               width: 30px;
-                               height: 3px;
-                               background-color: #878383;
-                               margin: 6px 0;
-                               transition: 0.4s;
-                           }
-                           /* Rotate first bar */
-                           
-                           .change .bar1 {
-                               -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-                               transform: rotate(-45deg) translate(-9px, 6px);
-                           }
-                           /* Fade out the second bar */
-                           
-                           .change .bar2 {
-                               opacity: 0;
-                           }
-                           /* Rotate last bar */
-                           
-                           .change .bar3 {
-                               -webkit-transform: rotate(45deg) translate(-8px, -8px);
-                               transform: rotate(45deg) translate(-8px, -8px);
-                           }
-                           
-                           .texts {
-                               display: inline-block;
-                           }
-                           
-                           h3 {
-                               margin-bottom: 0;
-                               font-weight: bold;
-                               color: #666666
-                           }
-                           
-                           h5 {
-                               margin-top: 5px;
-                               font-size: 13px;
-                               margin-left: 6px;
-                               color: #BDBDBD
-                           }
-                           
-                           .search {
-                               display: inline-block;
-                               margin-top: 9%;
-                               width: 100%;
-                           }
-                           
-                           input[type=text] {
-                               width: 160px;
-                               -webkit-transition: width 0.4s ease-in-out;
-                               transition: width 0.4s ease-in-out;
-                               border-radius: 20px;
-                               border: 1px solid rgba(153, 153, 153, 0.19);
-                               background: #fff;
-                               padding: 5px 15px
-                           }
-                           /* When the input field gets focus, change its width to 100% */
-                           
-                           input[type=text]:focus {
-                               width: 100%;
-                               border: 1px solid #BCF4A4;
-                           }
-                           
-                            ::-webkit-input-placeholder {
-                               /* Chrome/Opera/Safari */
-                               color: #CECECE;
-                           }
-                           
-                            ::-moz-placeholder {
-                               /* Firefox 19+ */
-                               color: #CECECE;
-                           }
-                           
-                            :-ms-input-placeholder {
-                               /* IE 10+ */
-                               color: #CECECE;
-                           }
-                           
-                            :-moz-placeholder {
-                               /* Firefox 18- */
-                               color: #CECECE;
-                           }
-                           
-                           .icons {
-                               display: inline-block;
-                           }
-                           
-                           .icons i {
-                               float: left;
-                               padding-right: 15px;
-                               color: #65657a
-                           }
-                           
-                           .profile-1 {
-                               padding-top: 21px
-                           }
-                           
-                           .profile {
-                               display: inline-block;
-                               text-align: right;
-                           }
-                           
-                           .profile img {
-                               width: 40px;
-                               border-radius: 50%;
-                               margin-left: 17px;
-                               border: 2px solid #fff
-                           }
-                           
-                           .profile h4 {
-                               display: inline-block;
-                               color: #7e7d7d
-                           }
-                           /* start tabel*/
-                           
-                           .titel {
-                               padding: 10px 20px 20px;
-                               color: #ddd;
-                               font-size: 20px
-                           }
-                           
-                           .table {
-                               border: 1px solid #dddddd;
-                               box-shadow: 0px 7px 20px 0px rgba(48, 44, 44, 0.1), 12px -11px 20px rgba(48, 44, 44, 0.1);
-                               margin-top: 20px
-                           }
-                           
-                           .table:hover {
-                               box-shadow: 0 0 0;
-                           }
-                           
-                           .table th {
-                               border: 1px solid #DDD;
-                               font-size: 18px;
-                               height: 30px;
-                               padding: 0 20px
-                           }
-                           
-                           .table td {
-                               border: 1px solid #DDD;
-                               padding-right: 20px;
-                               padding-left: 20px;
-                               height: 65px;
-                               color: #999;
-                           }
-                           
-                           tr {
-                               transition: all .5s ease-in-out;
-                               -webkit-transition: all .5s ease-in-out;
-                               -moz-transition: all .5s ease-in-out;
-                               -o-transition: all .5s ease-in-out;
-                           }
-                           
-                           tr:nth-child(even) {
-                               background-color: #fcfcfc
-                           }
-                           
-                           tr:hover {
-                               background-color: #8de187
-                           }
-                           
-                           .table .fa {
-                               color: #F6C359;
-                               padding-right: 5px
-                           }
-                           
-                           .table-responsive button {
-                               width: 100%;
-                               border: 0;
-                               background-color: #eee;
-                               height: 45px;
-                               margin-top: 10px;
-                           }
-                           
-                           .table-responsive button:hover {
-                               box-shadow: inset -14px 8px 19px 15px rgba(48, 44, 44, 0.1);
-                               background-color: #ddd
-                           }
-                           
-                           .under-table {
-                               border: 1px solid #DDD;
-                               margin-top: 25px;
-                               padding: 30px;
-                               color: #777
-                           }
-                           
-                           .under-table h3 {
-                               margin-top: 0;
-                               margin-bottom: 10px
-                           }
-                           
-                           .under-table p {
-                               display: inline-block;
-                               margin-bottom: 0;
-                           }
-                           
-                           .under-table span {
-                               float: right;
-                               font-weight: bold;
-                               font-size: 20px;
-                               color: #000
-                           }
-                           /* media query */
-                           
-                           @media only screen and (min-width: 250px) and (max-width: 480px) {
-                               aside {
-                                   padding-left: 25px !important
-                               }
-                               aside img {
-                                   padding: 0;
-                               }
-                               aside .main-tabs>li,
-                               aside .details,
-                               aside .details-recycel p {
-                                   font-size: 8px;
-                                   font-weight: normal;
-                                   padding: 8px 5px;
-                                   letter-spacing: 0!important
-                               }
-                               aside .main-tabs>.fa {
-                                   padding-left: 0
-                               }
-                               .table {
-                                   font-size: 10px;
-                               }
-                               .table tr td,
-                               .table tr {
-                                   padding: 8px 10px;
-                                   height: 13px
-                               }
-                               .titel {
-                                   font-size: 12px;
-                                   padding: 6px 10px
-                               }
-                               @media only screen and (min-width: 400px) and (max-width: 600px) {
-                                   aside .main-tabs>li {
-                                       font-size: 10px;
-                                       font-weight: normal;
-                                       padding: 10px 5px;
-                                       letter-spacing: 0!important
+                                   * {
+                                       font-family: sans-serif, "Arial Black", Gadget,
                                    }
-                                   .table-responsive {
-                                       width: 66% !important;
-                                       font-size: 10px
+                                   
+                                   .col-xs-1,
+                                   .col-sm-1,
+                                   .col-md-1,
+                                   .col-lg-1,
+                                   .col-xs-2,
+                                   .col-sm-2,
+                                   .col-md-2,
+                                   .col-lg-2,
+                                   .col-xs-3,
+                                   .col-sm-3,
+                                   .col-md-3,
+                                   .col-lg-3,
+                                   .col-xs-4,
+                                   .col-sm-4,
+                                   .col-md-4,
+                                   .col-lg-4,
+                                   .col-xs-5,
+                                   .col-sm-5,
+                                   .col-md-5,
+                                   .col-lg-5,
+                                   .col-xs-6,
+                                   .col-sm-6,
+                                   .col-md-6,
+                                   .col-lg-6,
+                                   .col-xs-7,
+                                   .col-sm-7,
+                                   .col-md-7,
+                                   .col-lg-7,
+                                   .col-xs-8,
+                                   .col-sm-8,
+                                   .col-md-8,
+                                   .col-lg-8,
+                                   .col-xs-9,
+                                   .col-sm-9,
+                                   .col-md-9,
+                                   .col-lg-9,
+                                   .col-xs-10,
+                                   .col-sm-10,
+                                   .col-md-10,
+                                   .col-lg-10,
+                                   .col-xs-11,
+                                   .col-sm-11,
+                                   .col-md-11,
+                                   .col-lg-11,
+                                   .col-xs-12,
+                                   .col-sm-12,
+                                   .col-md-12,
+                                   .col-lg-12 {
+                                       padding-left: 25px !important;
+                                       padding-right: 0 !important
                                    }
+                                   /*start aside*/
+                                   
+                                   aside {
+                                       padding-left: 15%;
+                                       background-color: #272736;
+                                       color: #757583;
+                                   }
+                                   
+                                   aside img {
+                                       margin: 20%;
+                                   }
+                                   
+                                   aside .main-tabs {
+                                       padding: 0
+                                   }
+                                   
+                                   aside .main-tabs li {
+                                       padding: 15px 20px;
+                                       list-style: none;
+                                       border-left: 2px solid transparent
+                                   }
+                                   
+                                   aside .main-tabs li:hover {
+                                       background-color: #222230;
+                                       border-left: 2px solid #c19a4e;
+                                       color: #D9D9E3
+                                   }
+                                   
+                                   aside .main-tabs li:hover .fa {
+                                       color: #c19a4e
+                                   }
+                                   
+                                   aside .main-tabs>.fa {
+                                       font-size: 25px;
+                                       color: #777790;
+                                       padding-left: 10%
+                                   }
+                                   
+                                   aside ul span {
+                                       text-transform: uppercase;
+                                       letter-spacing: 1px;
+                                       font-weight: bold;
+                                       padding: 15px 10px
+                                   }
+                                   
+                                   aside .details {
+                                       padding-top: 10px;
+                                       padding-left: 25px;
+                                       padding-bottom: 25px;
+                                       font-size: 12px;
+                                       border-bottom: 1px solid #35353c
+                                   }
+                                   
+                                   aside .details:hover,
+                                   aside .details-recycel p:hover {
+                                       color: #c19a4e;
+                                   }
+                                   
+                                   aside .details-recycel p {
+                                       padding: 10px 15px;
+                                   }
+                                   
+                                   aside .details-recycel {
+                                       background-color: #222230
+                                   }
+                                   
+                                   aside .details-recycel p .fa {
+                                       float: right
+                                   }
+                                   /*Start navbar*/
+                                   
+                                   .navbar {
+                                       background-color: #e9edf2;
+                                   }
+                                   
+                                   .burger {
+                                       display: inline-block;
+                                       padding-left: 30px
+                                   }
+                                   
+                                   .cus {
+                                       display: inline-block;
+                                       cursor: pointer;
+                                       width: 15%;
+                                       padding-right: 20px
+                                   }
+                                   
+                                   .bar1,
+                                   .bar2,
+                                   .bar3 {
+                                       width: 30px;
+                                       height: 3px;
+                                       background-color: #878383;
+                                       margin: 6px 0;
+                                       transition: 0.4s;
+                                   }
+                                   /* Rotate first bar */
+                                   
+                                   .change .bar1 {
+                                       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                                       transform: rotate(-45deg) translate(-9px, 6px);
+                                   }
+                                   /* Fade out the second bar */
+                                   
+                                   .change .bar2 {
+                                       opacity: 0;
+                                   }
+                                   /* Rotate last bar */
+                                   
+                                   .change .bar3 {
+                                       -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                                       transform: rotate(45deg) translate(-8px, -8px);
+                                   }
+                                   
+                                   .texts {
+                                       display: inline-block;
+                                   }
+                                   
+                                   h3 {
+                                       margin-bottom: 0;
+                                       font-weight: bold;
+                                       color: #666666
+                                   }
+                                   
+                                   h5 {
+                                       margin-top: 5px;
+                                       font-size: 13px;
+                                       margin-left: 6px;
+                                       color: #BDBDBD
+                                   }
+                                   
+                                   .search {
+                                       display: inline-block;
+                                       margin-top: 9%;
+                                       width: 100%;
+                                   }
+                                   
+                                   input[type=text] {
+                                       width: 160px;
+                                       -webkit-transition: width 0.4s ease-in-out;
+                                       transition: width 0.4s ease-in-out;
+                                       border-radius: 20px;
+                                       border: 1px solid rgba(153, 153, 153, 0.19);
+                                       background: #fff;
+                                       padding: 5px 15px
+                                   }
+                                   /* When the input field gets focus, change its width to 100% */
+                                   
+                                   input[type=text]:focus {
+                                       width: 100%;
+                                       border: 1px solid #BCF4A4;
+                                   }
+                                   
+                                    ::-webkit-input-placeholder {
+                                       /* Chrome/Opera/Safari */
+                                       color: #CECECE;
+                                   }
+                                   
+                                    ::-moz-placeholder {
+                                       /* Firefox 19+ */
+                                       color: #CECECE;
+                                   }
+                                   
+                                    :-ms-input-placeholder {
+                                       /* IE 10+ */
+                                       color: #CECECE;
+                                   }
+                                   
+                                    :-moz-placeholder {
+                                       /* Firefox 18- */
+                                       color: #CECECE;
+                                   }
+                                   
+                                   .icons {
+                                       display: inline-block;
+                                   }
+                                   
+                                   .icons i {
+                                       float: left;
+                                       padding-right: 15px;
+                                       color: #65657a
+                                   }
+                                   
+                                   .profile-1 {
+                                       padding-top: 21px
+                                   }
+                                   
+                                   .profile {
+                                       display: inline-block;
+                                       text-align: right;
+                                   }
+                                   
+                                   .profile img {
+                                       width: 40px;
+                                       border-radius: 50%;
+                                       margin-left: 17px;
+                                       border: 2px solid #fff
+                                   }
+                                   
+                                   .profile h4 {
+                                       display: inline-block;
+                                       color: #7e7d7d
+                                   }
+                                   /* start tabel*/
+                                   
                                    .titel {
-                                       font-size: 16px;
-                                       padding: 6px 10px
+                                       padding: 10px 20px 20px;
+                                       color: #ddd;
+                                       font-size: 20px
                                    }
-                                   .table tr td,
-                                   .table tr {
-                                       padding: 3px 5px;
-                                       height: 10px
+                                   
+                                   .table {
+                                       border: 1px solid #dddddd;
+                                       box-shadow: 0px 7px 20px 0px rgba(48, 44, 44, 0.1), 12px -11px 20px rgba(48, 44, 44, 0.1);
+                                       margin-top: 20px
                                    }
-                               }
+                                   
+                                   .table:hover {
+                                       box-shadow: 0 0 0;
+                                   }
+                                   
+                                   .table th {
+                                       border: 1px solid #DDD;
+                                       font-size: 18px;
+                                       height: 30px;
+                                       padding: 0 20px
+                                   }
+                                   
+                                   .table td {
+                                       border: 1px solid #DDD;
+                                       padding-right: 20px;
+                                       padding-left: 20px;
+                                       height: 65px;
+                                       color: #999;
+                                   }
+                                   
+                                   tr {
+                                       transition: all .5s ease-in-out;
+                                       -webkit-transition: all .5s ease-in-out;
+                                       -moz-transition: all .5s ease-in-out;
+                                       -o-transition: all .5s ease-in-out;
+                                   }
+                                   
+                                   tr:nth-child(even) {
+                                       background-color: #fcfcfc
+                                   }
+                                   
+                                   tr:hover {
+                                       background-color: #8de187
+                                   }
+                                   
+                                   .table .fa {
+                                       color: #F6C359;
+                                       padding-right: 5px
+                                   }
+                                   
+                                   .table-responsive button {
+                                       width: 100%;
+                                       border: 0;
+                                       background-color: #eee;
+                                       height: 45px;
+                                       margin-top: 10px;
+                                   }
+                                   
+                                   .table-responsive button:hover {
+                                       box-shadow: inset -14px 8px 19px 15px rgba(48, 44, 44, 0.1);
+                                       background-color: #ddd
+                                   }
+                                   
+                                   .under-table {
+                                       border: 1px solid #DDD;
+                                       margin-top: 25px;
+                                       padding: 30px;
+                                       color: #777
+                                   }
+                                   
+                                   .under-table h3 {
+                                       margin-top: 0;
+                                       margin-bottom: 10px
+                                   }
+                                   
+                                   .under-table p {
+                                       display: inline-block;
+                                       margin-bottom: 0;
+                                   }
+                                   
+                                   .under-table span {
+                                       float: right;
+                                       font-weight: bold;
+                                       font-size: 20px;
+                                       color: #000
+                                   }
+                                   /* media query */
+                                   
+                                   @media only screen and (min-width: 250px) and (max-width: 480px) {
+                                       aside {
+                                           padding-left: 25px !important
+                                       }
+                                       aside img {
+                                           padding: 0;
+                                       }
+                                       aside .main-tabs>li,
+                                       aside .details,
+                                       aside .details-recycel p {
+                                           font-size: 8px;
+                                           font-weight: normal;
+                                           padding: 8px 5px;
+                                           letter-spacing: 0!important
+                                       }
+                                       aside .main-tabs>.fa {
+                                           padding-left: 0
+                                       }
+                                       .table {
+                                           font-size: 10px;
+                                       }
+                                       .table tr td,
+                                       .table tr {
+                                           padding: 8px 10px;
+                                           height: 13px
+                                       }
+                                       .titel {
+                                           font-size: 12px;
+                                           padding: 6px 10px
+                                       }
+                                       .table>thead>tr>th {
+                                           font-size: 12px !important
+                                       }
+                                   }
+                                   
+                                   @media only screen and (min-width: 400px) and (max-width: 600px) {
+                                       aside .main-tabs>li {
+                                           font-size: 10px;
+                                           font-weight: normal;
+                                           padding: 10px 5px;
+                                           letter-spacing: 0!important
+                                       }
+                                       .table-responsive {
+                                           width: 66% !important;
+                                           font-size: 10px
+                                       }
+                                       .titel {
+                                           font-size: 16px;
+                                           padding: 6px 10px
+                                       }
+                                       .table tr td,
+                                       .table tr {
+                                           padding: 3px 5px;
+                                           height: 10px
+                                       }
+                                       .table>thead>tr>th {
+                                           font-size: 10px!important
+                                       }
+                                   }
