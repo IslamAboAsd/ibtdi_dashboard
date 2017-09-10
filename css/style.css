@@ -122,6 +122,17 @@
                                    aside .details-recycel p .fa {
                                        float: right
                                    }
+                                   
+                                   .end-aside ul li {
+                                       padding-top: 20px;
+                                       list-style: none
+                                   }
+                                   
+                                   .end-aside ul li:before {
+                                       content: "•";
+                                       padding-right: 8px;
+                                       color: #c19a4e;
+                                   }
                                    /*Start navbar*/
                                    
                                    .navbar {
