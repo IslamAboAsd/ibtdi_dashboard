@@ -2,6 +2,10 @@
                                        font-family: sans-serif, "Arial Black", Gadget,
                                    }
                                    
+                                   .hidden {
+                                       display: none
+                                   }
+                                   
                                    a:hover {
                                        text-decoration-style: none;
                                        color: inherit
@@ -110,7 +114,7 @@
                                        text-transform: uppercase;
                                        letter-spacing: 1px;
                                        font-weight: bold;
-                                       padding: 15px 10px
+                                       padding: 10px 10px
                                    }
                                    
                                    aside .details {
@@ -138,14 +142,26 @@
                                        float: right
                                    }
                                    
+                                   .end-aside ul {
+                                       padding: 0
+                                   }
+                                   
                                    .end-aside ul li {
                                        padding-top: 20px;
-                                       list-style: none
+                                       list-style: none;
                                    }
                                    
                                    .end-aside ul li:before {
                                        content: "•";
                                        padding-right: 8px;
+                                       color: #c19a4e;
+                                   }
+                                   
+                                   .end-aside ul li span {
+                                       float: right;
+                                   }
+                                   
+                                   .end-aside ul li:hover {
                                        color: #c19a4e;
                                    }
                                    /*Start navbar*/
@@ -347,7 +363,8 @@
                                    }
                                    
                                    tr:hover {
-                                       background-color: #8de187
+                                       background-color: #8de187;
+                                       color: #fff
                                    }
                                    
                                    .table .fa {
@@ -402,7 +419,8 @@
                                        }
                                        aside .main-tabs>li,
                                        aside .details,
-                                       aside .details-recycel p {
+                                       aside .details-recycel p,
+                                       .end-aside ul>li {
                                            font-size: 8px;
                                            font-weight: normal;
                                            padding: 8px 5px;
@@ -410,6 +428,9 @@
                                        }
                                        aside .main-tabs>.fa {
                                            padding-left: 0
+                                       }
+                                       .end-aside ul li span {
+                                           padding: 5px 5px
                                        }
                                        .tbl {
                                            font-size: 10px;
@@ -431,10 +452,16 @@
                                            font-size: 10px;
                                            padding: 15px
                                        }
+                                       .under-table {
+                                           margin-bottom: 6px;
+                                           padding: 10px;
+                                           font-size: 12px
+                                       }
                                    }
                                    
                                    @media only screen and (min-width: 400px) and (max-width: 600px) {
-                                       aside .main-tabs>li {
+                                       aside .main-tabs>li,
+                                       .end-aside ul>li {
                                            font-size: 10px;
                                            font-weight: normal;
                                            padding: 10px 5px;
@@ -456,5 +483,10 @@
                                        .under-tfooter p,
                                        .under-tfooter span {
                                            font-size: 15px;
+                                       }
+                                       .under-table {
+                                           margin-bottom: 8px;
+                                           padding: 12px;
+                                           font-size: 15px
                                        }
                                    }

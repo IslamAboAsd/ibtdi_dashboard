@@ -1,11 +1,8 @@
 /*global $, alert, console, mixer */
-$(function() {
 
-    'use strict';
+function fun() {
+    $('.cus').click(function() {
 
-
-
-});
-function myFunction(x) {
-    x.classList.toggle("change");
-}
+        $('aside').toggleClass('hidden');
+    });
+};
