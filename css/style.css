@@ -444,6 +444,16 @@
                                            padding: 10px;
                                            font-size: 12px
                                        }
+                                       .profile img {
+                                           margin-left: 0;
+                                       }
+                                       .profile .fa-circle {
+                                           top: 9px !important;
+                                       }
+                                       .profile-1 {
+                                           padding-top: 5px;
+                                           padding-left: 5px
+                                       }
                                    }
                                    
                                    @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -475,5 +485,8 @@
                                            margin-bottom: 8px;
                                            padding: 12px;
                                            font-size: 15px
+                                       }
+                                       .profile img {
+                                           margin-left: 0
                                        }
                                    }
