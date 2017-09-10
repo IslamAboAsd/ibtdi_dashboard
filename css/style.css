@@ -4,15 +4,13 @@
    /*start aside*/
    
    aside {
-       height: 900px;
-       padding: 0!important;
+       padding-left: 15%;
        background-color: #272736;
-       color: #757583
+       color: #757583;
    }
    
    aside img {
        margin: 20%;
-       padding-left: 15%
    }
    
    aside .main-tabs {
@@ -41,11 +39,23 @@
        padding-left: 10%
    }
    
-   aside span {
+   aside ul span {
        text-transform: uppercase;
        letter-spacing: 1px;
        font-weight: bold;
        padding: 15px 10px
+   }
+   
+   aside .details {
+       padding-top: 10px;
+       padding-left: 25px;
+       padding-bottom: 25px;
+       font-size: 12px;
+       border-bottom: 1px solid #35353c
+   }
+   
+   aside .details-recycel p {
+       padding: 10px 15px
    }
    /*Start navbar*/
    
@@ -111,7 +121,7 @@
    
    .search {
        display: inline-block;
-       margin-top: 34px;
+       margin-top: 9%;
        width: 100%;
    }
    
