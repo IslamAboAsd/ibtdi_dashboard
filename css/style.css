@@ -62,6 +62,10 @@
    aside .details-recycel p {
        padding: 10px 15px
    }
+   
+   aside .details-recycel p .fa {
+       float: right
+   }
    /*Start navbar*/
    
    .navbar {
