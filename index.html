@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
@@ -22,17 +23,18 @@
     <div class="row">
 
         <!-- start aside-->
-        <aside class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
-            <img class="img-responsive" src="images/ibtdi-icon.png" width="75%" height="40">
+        <aside class=" hidden-xs">
+            <div class="img"> <img src="images/ibtdi-icon.png" width="75%" height="40"></div>
             <ul class="main-tabs">
                 <li class="active"> <i class="fa fa-tachometer" aria-hidden="true"></i> <span>dashboard <i class="hidden-xs fa fa-circle"style="color:#6066e8" aria-hidden="true"></i>
                 </span></li>
+                <li> <i class="fa fa-table" aria-hidden="true"></i> <span><a href="#">table</a></span></li>
+
                 <li> <i class="fa fa-map-marker" aria-hidden="true"></i> <span><a href="#">location</a></span></li>
                 <li> <i class="fa fa-bar-chart" aria-hidden="true"></i> <span><a href="#">charts</a></span></li>
                 <li> <i class="fa fa-wrench" aria-hidden="true"></i> <span><a href="#">setting</a></span></li>
                 <li> <i class="fa fa-comments-o" aria-hidden="true"></i> <span><a href="#">help</a></span></li>
                 <li> <i class="fa fa-sign-out" aria-hidden="true"></i> <span><a href="#">log out</a></span></li>
-                <li> <i class="fa fa-table" aria-hidden="true"></i> <span><a href="#">table</a></span></li>
             </ul>
             <div class="details">
                 <span> 15.48. march 
@@ -70,144 +72,145 @@
 
         </aside>
         <!--start nav bar-->
-        <nav class="col-xs-8 col-sm-9 col-md-10  navbar">
-            <div class="col-md-3 hidden-xs">
-                <div class="burger">
-                    <div class="cus">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
+        <div class="nav-tabel">
+            <nav class="navbar">
 
-                    </div>
+                <div class="cus col-md-1">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+
                 </div>
-                <div class="texts  ">
+
+                <div class="texts col-md-3 ">
                     <h3 class="">Taxi App</h3>
                     <h5>Delivery reports</h5>
                 </div>
-            </div>
 
 
-            <div class="col-md-3 ">
-                <div class="search hidden-xs ">
-                    <input type="text" name="search" placeholder="Search..">
+
+                <div class="col-md-3 ">
+                    <div class="search hidden-xs ">
+                        <input type="text" name="search" placeholder="Search..">
+                    </div>
                 </div>
-            </div>
-            <div class=" profile-1 col-md-6  ">
-                <div class="icons">
-                    <i class="fa fa-circle" style="color:#6066e8;
+                <div class=" profile-1 col-md-4  ">
+                    <div class="icons">
+                        <i class="fa fa-circle" style="color:#6066e8;
                         position: absolute;
                         top: 29px;
                         font-size:7px" aria-hidden="true"></i>
-                    <i class="fa fa-bell" aria-hidden="true"></i>
-                    <i class="fa fa-circle" style="color:#f00;
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <i class="fa fa-circle" style="color:#f00;
                     position: absolute;
                     top: 29px;
                     font-size:7px" aria-hidden="true"></i>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
 
-                    <i class="fa fa-heart" aria-hidden="true"></i>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
 
-                </div>
-                <div class="profile">
-                    <h4 class="hidden-xs">Yaroslav Zaytsev</h4>
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    <img src="images/profile.jpg" alt="profile pic">
-                </div>
-            </div>
-        </nav>
-
-
-
-
-        <div class=" tbl col-xs-8 col-sm-9 col-md-10">
-            <div class="titel col-sm-6"> <span>My ofice</span> &#62;
-                <span>Taxi App</span> &#62;
-                <span>Tabels</span></div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th><i class="fa fa-car" aria-hidden="true"></i> Number of Machines</th>
-                        <th><i class="fa fa-money" aria-hidden="true"></i> Earnings</th>
-                        <th><i class="fa fa-calendar" aria-hidden="true"></i> Date</th>
-                        <th><i class="fa fa-user" aria-hidden="true"></i> Drivers</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1. BMW 5 <span style="float: right">4976ART RU</span></td>
-                        <td>$ 337.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Mohamed</td>
-                    </tr>
-                    <tr>
-                        <td>2. Golf <span style="float: right">4976ART RU</span></td>
-                        <td>$ 345.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Eslam</td>
-                    </tr>
-                    <tr>
-                        <td>3. Nexy <span style="float: right">4976ART RU</span></td>
-                        <td>$ 543.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Ali</td>
-                    </tr>
-                    <tr>
-                        <td>4. Tesla <span style="float: right">4976ART RU</span></td>
-                        <td>$ 546.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Hassan</td>
-                    </tr>
-                    <tr>
-                        <td>5. Renalt <span style="float: right">4976ART RU</span></td>
-                        <td>$ 864.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Mahmoud</td>
-                    </tr>
-                    <tr>
-                        <td>6. Audi Q7 <span style="float: right">4976ART RU</span></td>
-                        <td>$ 234.09 </td>
-                        <td>9/9/2017</td>
-                        <td>John</td>
-                    </tr>
-                    <tr>
-                        <td>7. Mersedes R <span style="float: right">4976ART RU</span></td>
-                        <td>$ 532.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Ahmed</td>
-                    </tr>
-                    <tr>
-                        <td>8. Nexy <span style="float: right">4976ART RU</span></td>
-                        <td>$ 645.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Salem</td>
-                    </tr>
-                    <tr>
-                        <td>9. Golf <span style="float: right">4976ART RU</span></td>
-                        <td>$ 865.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Mostafa</td>
-                    </tr>
-                    <tr>
-                        <td>10. BMW 5 <span style="float: right">4976ART RU</span></td>
-                        <td>$ 324.09 </td>
-                        <td>9/9/2017</td>
-                        <td>Khaled</td>
-                    </tr>
-                </tbody>
-            </table>
-            <button>Show more</button>
-            <div class="under-tfooter row">
-                <div class="col-xs-12 col-sm-6">
-                    <div class="under-table">
-                        <h3>Welcome to infinity</h3>
-                        <p>Numper of views</p>
-                        <span>102</span>
+                    </div>
+                    <div class="profile">
+                        <h4 class="hidden-xs">Yaroslav Zaytsev</h4>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <img src="images/profile.jpg" alt="profile pic">
                     </div>
                 </div>
+            </nav>
 
-                <div class="col-xs-12 col-sm-6">
-                    <div class="under-table">
-                        <h3>Active</h3>
-                        <p>Leads/Contacts</p>
-                        <span>102</span>
+
+
+
+            <div class=" tbl">
+                <div class="titel col-sm-6"> <span>My ofice</span> &#62;
+                    <span>Taxi App</span> &#62;
+                    <span>Tabels</span></div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th><i class="fa fa-car" aria-hidden="true"></i> Number of Machines</th>
+                            <th><i class="fa fa-money" aria-hidden="true"></i> Earnings</th>
+                            <th><i class="fa fa-calendar" aria-hidden="true"></i> Date</th>
+                            <th><i class="fa fa-user" aria-hidden="true"></i> Drivers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1. BMW 5 <span style="float: right">4976ART RU</span></td>
+                            <td>$ 337.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Mohamed</td>
+                        </tr>
+                        <tr>
+                            <td>2. Golf <span style="float: right">4976ART RU</span></td>
+                            <td>$ 345.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Eslam</td>
+                        </tr>
+                        <tr>
+                            <td>3. Nexy <span style="float: right">4976ART RU</span></td>
+                            <td>$ 543.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Ali</td>
+                        </tr>
+                        <tr>
+                            <td>4. Tesla <span style="float: right">4976ART RU</span></td>
+                            <td>$ 546.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Hassan</td>
+                        </tr>
+                        <tr>
+                            <td>5. Renalt <span style="float: right">4976ART RU</span></td>
+                            <td>$ 864.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Mahmoud</td>
+                        </tr>
+                        <tr>
+                            <td>6. Audi Q7 <span style="float: right">4976ART RU</span></td>
+                            <td>$ 234.09 </td>
+                            <td>9/9/2017</td>
+                            <td>John</td>
+                        </tr>
+                        <tr>
+                            <td>7. Mersedes R <span style="float: right">4976ART RU</span></td>
+                            <td>$ 532.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Ahmed</td>
+                        </tr>
+                        <tr>
+                            <td>8. Nexy <span style="float: right">4976ART RU</span></td>
+                            <td>$ 645.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Salem</td>
+                        </tr>
+                        <tr>
+                            <td>9. Golf <span style="float: right">4976ART RU</span></td>
+                            <td>$ 865.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Mostafa</td>
+                        </tr>
+                        <tr>
+                            <td>10. BMW 5 <span style="float: right">4976ART RU</span></td>
+                            <td>$ 324.09 </td>
+                            <td>9/9/2017</td>
+                            <td>Khaled</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button>Show more</button>
+                <div class="under-tfooter row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="under-table">
+                            <h3>Welcome to infinity</h3>
+                            <p>Numper of views</p>
+                            <span style="color:#2c2c2c">102</span>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="under-table">
+                            <h3>Active</h3>
+                            <p>Leads/Contacts</p>
+                            <span style="color:#2c2c2c">102</span>
+                        </div>
                     </div>
                 </div>
             </div>
