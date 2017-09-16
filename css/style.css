@@ -29,7 +29,7 @@ aside {
     background-color: #272736;
     color: #757583;
     width: 240px;
-    overflow-y: scroll;
+   overflow-y: scroll;
     position: absolute;
     transition: all ease-in-out .5s;
     left: 0;
@@ -37,9 +37,7 @@ aside {
     top: 0;
    
 }
-.inner-aside{
-    overflow-y: scroll
-}
+
 
 .add-width {
     width: 100%!important
@@ -402,9 +400,7 @@ tr:hover td {
 
 @media only screen and (min-width: 250px) and (max-width: 480px) {
    body {
-         overflow-x: hidden;
-
-       
+         overflow-x: hidden; 
        
     }
     aside{
@@ -449,6 +445,14 @@ tr:hover td {
         font-size: 10px;
         padding: 5!important
     }
+    .table th{
+        font-size: 12px;
+        text-align: center
+        
+    }
+    .table th .fa{
+        display: block
+    }
     .table tr td,
     .table tr {
         padding: 8px 10px;
@@ -470,6 +474,9 @@ tr:hover td {
        padding: 8px;
        font-size: 0px;
    }
+    .under-table h3{
+        margin-top: 20px
+    }
     .profile img {
         margin-left: 0;
         margin-bottom: 6px

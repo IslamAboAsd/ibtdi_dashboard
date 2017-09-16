@@ -5,8 +5,12 @@ $(document).ready(function () {
 
         $('aside').toggleClass('hidden-aside');
         $('.nav-tabel').toggleClass('add-width');
+       
 
 
-
+    });
+    $(function () {
+        $('html').niceScroll();
+        $('aside').niceScroll();
     });
 });
