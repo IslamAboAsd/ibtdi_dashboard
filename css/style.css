@@ -9,22 +9,36 @@ a:hover {
 }
 
 .row {
-    margin: 0!important
+    margin: 0!important;
+    padding: 0 !important
 }
 
-
+.container-fluid{
+    margin: 0 !important;
+    padding: 0  !important
+}
 /*start aside*/
-
+.outer-aside{
+    background-color: #272736;
+    height: 100%;
+    position: fixed
+}
 aside {
     padding-right: 0!important;
     padding-left: 0!important;
     background-color: #272736;
     color: #757583;
     width: 240px;
-    position: fixed;
+    overflow-y: scroll;
+    position: absolute;
     transition: all ease-in-out .5s;
-    left: 0
-    /* animation-delay: .6s */
+    left: 0;
+    bottom: 0;
+    top: 0;
+   
+}
+.inner-aside{
+    overflow-y: scroll
 }
 
 .add-width {
@@ -167,6 +181,7 @@ aside .details-recycel p .fa {
     display: inline-block;
     cursor: pointer;
     width: 15%;
+    padding: 15px
 }
 
 .cus:hover {
@@ -386,12 +401,27 @@ tr:hover td {
 /* media query */
 
 @media only screen and (min-width: 250px) and (max-width: 480px) {
-    aside {
-        display: hidden
+   body {
+         overflow-x: hidden;
+
+       
+       
     }
-    .tabel-nav {
-        width: 100%!important
+    aside{
+        width:200px
     }
+    .nav-tabel{
+         width: 100%!important;
+        position: absolute !important;
+        left: 200px!important;
+       
+        
+    }
+    .add-width{
+        left: 0px!important;
+       
+    }
+    
     aside img {
         padding: 0;
     }
@@ -410,9 +440,14 @@ tr:hover td {
     .end-aside ul li span {
         padding: 5px 5px
     }
-    .tbl {
+   
+    .tbl{
+        padding: 5px;
+        overflow: hidden;
+        }
+    .table>tbody>tr>td {
         font-size: 10px;
-        padding: 0!important
+        padding: 5!important
     }
     .table tr td,
     .table tr {
@@ -431,10 +466,10 @@ tr:hover td {
         padding: 15px
     }
     .under-table {
-        margin-bottom: 6px;
-        padding: 10px;
-        font-size: 12px
-    }
+       margin-bottom: 0px;
+       padding: 8px;
+       font-size: 0px;
+   }
     .profile img {
         margin-left: 0;
         margin-bottom: 6px
@@ -451,14 +486,14 @@ tr:hover td {
 @media only screen and (min-width: 400px) and (max-width: 600px) {
     aside .main-tabs>li,
     .end-aside ul>li {
-        font-size: 10px;
+        font-size: 8px;
         font-weight: normal;
         padding: 10px 5px;
         letter-spacing: 0!important
     }
     .titel {
-        font-size: 12px;
-        padding: 6px 10px
+        font-size: 10px;
+        padding: 5px 7px
     }
     .table tr td,
     .table tr {
