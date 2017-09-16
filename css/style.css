@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-body {
+htlm {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -491,6 +491,10 @@ tr:hover td {
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
+     body {
+         overflow-x: hidden; 
+       
+    }
     aside .main-tabs>li,
     .end-aside ul>li {
         font-size: 8px;
