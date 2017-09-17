@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 
     });
-    $(function () {
+  /*  $(function () {
         $('html').niceScroll();
         $('aside').niceScroll({
             cursorcolor: "#333",
@@ -18,5 +18,5 @@ $(document).ready(function () {
             cursorborder: "1px solid #666",
             cursorborderradius: 0
         });
-    });
+    });*/
 });

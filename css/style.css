@@ -3,6 +3,19 @@ htlm {
     font-family: 'Montserrat', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
 a:hover {
     text-decoration-style: none;
     color: inherit
@@ -256,7 +269,7 @@ input[type=text] {
 
 .icons i {
     float: left;
-    padding-right: 15px;
+    padding-right: 33px;
     color: #65657a
 }
 
@@ -286,7 +299,7 @@ input[type=text] {
 }
 .profile h4 {
     display: inline-block;
-    color: #7e7d7d
+    color: #656578
 }
 
 .profile i {
